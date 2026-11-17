@@ -16,7 +16,7 @@ O protótipo **não usa nenhum modelo de IA ou API externa em funcionamento**. A
 | Pesquisa de fontes | Busca inicial e rascunho dos textos dos 22 registros | O autor abriu e conferiu as fontes, trocou fontes fracas por oficiais e fechou a base em 04/11/2026 |
 | Plano de testes e modelos de resposta | Rascunho das perguntas de teste e dos dois modelos de resposta | O autor aprovou a estrutura **[CONFIRMAR]** |
 | Código Python e documentação | O código dos arquivos em `src/`, o README e os documentos em `docs/` foram escritos pelo Claude a pedido do autor, que teve pouco tempo para o prazo | **[CONFIRMAR]** O autor leu o código, executou o programa e os testes e consegue explicar o funcionamento |
-| Testes | Execução dos testes automáticos e geração dos relatórios | O relatório disponível registra 43 casos, com 40 acertos (93,0%). O teste de usabilidade com outra pessoa ainda não foi realizado. **[CONFIRMAR que o autor executou localmente `python src/testes.py`]** |
+| Testes | Execução dos testes automáticos e geração dos relatórios | O relatório versionado registra 43 casos, com 40 acertos (93,0%). A execução local pelo autor deve ser confirmada antes da entrega. O teste de usabilidade com outra pessoa ainda não foi realizado. |
 
 ## Revisão posterior com ChatGPT
 
