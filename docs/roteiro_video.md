@@ -17,8 +17,8 @@
 | 3:50 | Sem base | "Como funciona o imposto de renda?": avisa o limite e não inventa |
 | 4:10 | Entradas inválidas | Enter vazio, `???`, opção "9" no menu, um CPF inventado (não é repetido na tela) |
 | 4:40 | Opção 4, trocar para o modelo A | Repetir uma pergunta para mostrar a diferença entre A e B |
-| 5:00 | `docs/resultados_testes.md` | 43 casos, taxa de acerto de 69,8% para 93,0%, tempo médio de poucos ms e o que mudou |
-| 5:40 | Teste de usabilidade | Quantas pessoas, resultados e dificuldades **(preencher com o que aconteceu)** |
+| 5:00 | `docs/resultados_testes.md` | 43 casos, 40 acertos (93,0%) na versão atual, comparação com 30/43 (69,8%) antes das melhorias, tempo médio e limitações |
+| 5:40 | `docs/teste_usabilidade.md` | Informar com transparência que ainda não houve teste com participante externo; não apresentar resultados inexistentes. Se conseguir alguém antes da gravação, executar as tarefas e atualizar o documento. |
 | 6:10 | `docs/uso_ia.md` | Onde a IA foi usada e como você validou. Seja sincero |
 | 6:40 | Conclusão | Limitações (base pequena, busca por palavras) e melhorias |
 
@@ -44,6 +44,6 @@
 - **Por que pontuação em vez de IA?** É simples de explicar, testar e corrigir, não depende de serviço externo, e permite mostrar exatamente por que um registro foi escolhido.
 - **Por que o limiar é 4?** Uma única palavra-chave vale 2 pontos; com o limiar em 4, é preciso mais de um sinal para responder. Com limiar 3, perguntas como "quanto custa um iPhone" passariam por causa da palavra "custa".
 - **O que acontece em empate?** Se os registros ficam a até 2 pontos do melhor, o assistente lista as opções para a pessoa escolher; só no empate exato de ordem interna vale o id.
-- **Por que a taxa de 93% pode ser otimista?** Porque as melhorias foram guiadas pelos erros dos próprios testes e as perguntas foram escritas pelo autor.
+- **Por que a taxa de 93% pode ser otimista?** Porque as perguntas foram escritas pelo autor e as melhorias foram guiadas pelos erros observados. Além disso, três consultas sobre identidade continuam sendo classificadas como ambíguas. Os 93% representam somente esta suíte de 43 casos, não uma garantia para qualquer pergunta.
 - **O que o assistente faz com dados pessoais?** Não pede, não grava e não repete; se a pessoa digitar algo parecido com um documento, a consulta é interrompida.
 - **Como acrescento uma orientação nova?** Edito o JSON, sem mexer no código, e rodo os testes.
