@@ -87,6 +87,14 @@ Para rodar os testes automáticos e gerar os indicadores:
 python src/testes.py
 ```
 
+Para executar a mesma suíte com um painel visual no terminal (ideal para a demonstração em vídeo):
+
+```
+python src/auditoria.py
+```
+
+O painel reaproveita `src/testes.py`, atualiza os arquivos CSV e Markdown e apresenta o resultado por categoria, incluindo as consultas que ainda precisam de atenção.
+
 ## 💬 Exemplos de uso
 
 **Pergunta direta (modelo B):** `Qual o prazo para transferir um carro que comprei?`
@@ -162,7 +170,7 @@ Os testes automáticos (`src/testes.py`) executam **43 casos** em três rodadas:
 
 * **`data/`** `base_conhecimento.json` (a base verificada), `resultados_testes.csv` (resultados finais) e `resultados_testes_antes.csv` (antes das melhorias).
 * **`docs/`** documentação: base de conhecimento, modelos de resposta, resultados de testes, teste de usabilidade, uso de IA e roteiro do vídeo.
-* **`src/`** código-fonte: `sistema.py` (interface), `base.py` (leitura e validação), `busca.py` (busca), `respostas.py` (modelos e mensagens) e `testes.py` (testes e indicadores).
+* **`src/`** código-fonte: `sistema.py` (interface), `base.py` (leitura e validação), `busca.py` (busca), `respostas.py` (modelos e mensagens), `testes.py` (testes e indicadores) e `auditoria.py` (painel de demonstração dos resultados).
 * **`README.md`** este arquivo.
 
 ## 📎 Links
