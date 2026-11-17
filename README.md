@@ -1,4 +1,4 @@
-# Citizen Assist AI - assistente de orientação cidadã - assistente de orientação cidadã
+# Citizen Assist AI - assistente de orientação cidadã
 
 ## Identificação
 
@@ -142,7 +142,7 @@ Os testes automáticos (`src/testes.py`) executam **43 casos** em três rodadas:
 
 - No primeiro resultado, as **reformulações** foram as que mais erraram (por exemplo, "fundo de garantia" não aparecia nas palavras-chave do FGTS), porque a busca depende de palavras. Fora do tema e entradas inválidas funcionaram desde o início.
 - As melhorias foram duas: mais **palavras-chave e sinônimos** nos dados (sem mexer nas regras do programa) e **maior peso para o subtema** na pontuação.
-- Os 3 erros restantes são consultas sobre "identidade" que o assistente tratou como **ambíguas** (CIN, custo e validade), pedindo que a pessoa escolha em vez de responder. Eles contam como erro porque o teste esperava uma resposta direta, mas o comportamento é seguro: o assistente não inventa uma resposta e deixa a pessoa escolher.
+- Os 3 casos restantes são consultas sobre identidade que o assistente tratou como **ambíguas**: validade da CIN (H08), custo da nova identidade (R01) e emissão pelo Poupatempo (R09). Eles contam como erro porque o teste esperava uma resposta direta, mas o sistema pediu que a pessoa escolhesse entre opções em vez de inventar uma resposta.
 - O tempo de consulta é de poucos milissegundos, porque a base é pequena. O tempo que importa para a pessoa é o do teste de usabilidade ([`docs/teste_usabilidade.md`](docs/teste_usabilidade.md)).
 
 **Facilidade de uso:** ainda não avaliada por participantes externos. Até o momento, somente o autor utilizou o sistema. Portanto, não há resultados de usabilidade com usuários a declarar. O roteiro e a ficha de registro estão em [`docs/teste_usabilidade.md`](docs/teste_usabilidade.md).
