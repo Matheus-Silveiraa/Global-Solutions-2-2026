@@ -1,5 +1,9 @@
 # Teste de facilidade de uso
 
+## Situação atual
+
+Até a última atualização desta documentação, o teste de usabilidade **ainda não foi realizado**. O autor informou que foi a única pessoa a utilizar o projeto até o momento. Por isso, não existem participantes, tempos, taxas de conclusão ou notas a registrar. Os campos abaixo são um roteiro para uma avaliação futura e não devem ser preenchidos com dados inventados. Uma autoavaliação pode ajudar a encontrar problemas, mas deve ser identificada como autoavaliação e não substitui um teste com outra pessoa quando esse for um requisito da atividade.
+
 > **Este teste precisa ser feito com pelo menos uma pessoa real.** Os campos marcados com `___` devem ser preenchidos com o que realmente acontecer. Não preencha com valores estimados.
 
 ## Como aplicar (cerca de 10 minutos por pessoa)
@@ -21,7 +25,7 @@
 
 ## Registro (uma tabela por pessoa)
 
-**Pessoa 1:** ___ (idade aproximada: ___; já usou assistentes digitais? ___)
+**Pessoa 1:** ___ (idade aproximada: ___; já usou assistentes digitais? ___). Preencher somente depois de realizar o teste.
 
 | Tarefa | Concluiu (sim/não) | Tempo (s) | Nº de tentativas ou erros | Dificuldades observadas |
 |---|---|---|---|---|
