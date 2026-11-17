@@ -16,7 +16,11 @@ O protótipo **não usa nenhum modelo de IA ou API externa em funcionamento**. A
 | Pesquisa de fontes | Busca inicial e rascunho dos textos dos 22 registros | O autor abriu e conferiu as fontes, trocou fontes fracas por oficiais e fechou a base em 04/11/2026 |
 | Plano de testes e modelos de resposta | Rascunho das perguntas de teste e dos dois modelos de resposta | O autor aprovou a estrutura **[CONFIRMAR]** |
 | Código Python e documentação | O código dos arquivos em `src/`, o README e os documentos em `docs/` foram escritos pelo Claude a pedido do autor, que teve pouco tempo para o prazo | **[CONFIRMAR]** O autor leu o código, executou o programa e os testes e consegue explicar o funcionamento |
-| Testes | Execução dos testes automáticos e geração dos relatórios | O autor rodou `python src/testes.py` **[CONFIRMAR]** e fez o teste de usabilidade com pessoas reais **[CONFIRMAR]** |
+| Testes | Execução dos testes automáticos e geração dos relatórios | O relatório disponível registra 43 casos, com 40 acertos (93,0%). O teste de usabilidade com outra pessoa ainda não foi realizado. **[CONFIRMAR que o autor executou localmente `python src/testes.py`]** |
+
+## Revisão posterior com ChatGPT
+
+Em 17/11/2026, o ChatGPT (OpenAI) foi utilizado nesta conversa para revisar a documentação publicada no repositório, preencher a identificação do aluno com os dados fornecidos, alinhar o README e o roteiro do vídeo aos resultados registrados e documentar que o teste de usabilidade ainda não foi realizado. Essa revisão documental não substitui a conferência do código, das fontes oficiais nem a execução dos testes pelo autor.
 
 ## Validação crítica realizada
 
@@ -27,7 +31,7 @@ A IA cometeu ou deixou passar erros que foram encontrados na conferência e corr
 3. **Referências inadequadas:** uma referência do VH-02 era uma notícia sobre outro assunto (curso teórico no Paraná) e a do VH-04 era apenas a página inicial do Detran-SP. Ambas foram retiradas.
 4. **Avisos escritos como ordens ao assistente** ("o assistente não deve...") foram reescritos para linguagem que a pessoa possa ler na tela. O aviso do DP-10 estava desatualizado e foi trocado por um texto geral.
 5. **Fontes em conflito sem solução automática:** idade na renovação automática da CNH, gravidade da multa por atraso na transferência e a data do PIS/Pasep. Nesses casos, a base **não afirma** o ponto duvidoso e manda confirmar na fonte.
-6. **Avaliação dos testes:** a primeira rodada acertou 69,8% dos casos; os erros foram analisados, a busca e as palavras-chave foram ajustadas, e o resultado final (93,0%) foi registrado junto com a ressalva de que as melhorias foram guiadas pelos próprios testes (ver `docs/resultados_testes.md` e o README).
+6. **Avaliação dos testes:** a primeira versão registrada acertou 30/43 casos (69,8%); a versão atual acertou 40/43 (93,0%). Os três casos restantes são consultas sobre validade, custo e emissão da identidade que foram classificadas como ambíguas. As melhorias foram guiadas pelos erros observados, portanto o resultado é específico desta suíte e pode ser otimista (ver `docs/resultados_testes.md` e o README).
 
 ## Cuidados e limites
 
