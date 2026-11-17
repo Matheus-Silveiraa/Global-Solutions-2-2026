@@ -646,9 +646,14 @@
           "orgao": "Planalto — Código de Trânsito Brasileiro",
           "titulo": "Lei nº 9.503/1997, art. 123 e art. 134",
           "url": "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm"
+        },
+        {
+          "orgao": "Poupatempo / Detran-SP",
+          "titulo": "Transferir Propriedade de Veículo Registrado em São Paulo",
+          "url": "https://www.poupatempo.sp.gov.br/carta/859FFA63-4EEB-472A-843B-F9595D5AAA32"
         }
       ],
-      "data_verificacao": "2026-11-04",
+      "data_verificacao": "2026-11-17",
       "aviso": "O fluxo e a documentação dependem do tipo de documento do veículo e do caso. Penalidades por atraso devem ser confirmadas no texto legal vigente e no Detran-SP.",
       "relacionados": [
         "VH-03",
