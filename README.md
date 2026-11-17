@@ -44,7 +44,7 @@ A base fica em `data/base_conhecimento.json`. Cada registro tem:
 | `aviso` | não | Alerta mostrado quando a informação exige confirmação |
 | `relacionados` | não | Ids de assuntos ligados, usados na navegação |
 
-A origem de cada orientação são páginas oficiais (gov.br, TSE, Receita Federal, Ministério do Trabalho, Caixa, Detran-SP, Planalto etc.), conferidas pelo autor em 04/11/2026. Detalhes em [`docs/base_de_conhecimento.md`](docs/base_de_conhecimento.md).
+A origem de cada orientação são páginas oficiais (gov.br, TSE, Receita Federal, Ministério do Trabalho, Caixa, Detran-SP, Planalto etc.), conferidas pelo autor em 04/11/2026, com atualização da referência VH-04 em 17/11/2026. Detalhes em [`docs/base_de_conhecimento.md`](docs/base_de_conhecimento.md).
 
 **Estruturas de dados usadas** (arquivo `src/base.py`):
 
@@ -167,6 +167,7 @@ Os testes automáticos (`src/testes.py`) executam **43 casos** em três rodadas:
 
 ## 📎 Links
 
+* **Repositório:** [GitHub - Global-Solutions-2-2026](https://github.com/Matheus-Silveiraa/Global-Solutions-2-2026)
 * **Vídeo de apresentação:** ainda será gravado e publicado como não listado no YouTube.
 
 ## 🧠 Decisões técnicas
