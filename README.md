@@ -192,5 +192,3 @@ O protótipo cumpre o fluxo completo (pergunta ou menu, orientação, fonte, avi
 ## 📋 Licença
 
 Projeto acadêmico. As orientações são informativas e vêm das fontes citadas em cada registro.
-#   G l o b a l - S o l u t i o n s - 2 - 2 0 2 6  
- 
