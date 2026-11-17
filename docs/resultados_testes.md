@@ -1,6 +1,6 @@
 # Resultados dos testes
 
-Gerado automaticamente por `python src/testes.py`. Não edite à mão: rode o script de novo.
+Gerado por `python src/testes.py`. Os indicadores abaixo foram atualizados com a execução local de 17/11/2026. Os tempos por caso detalhados mais abaixo são os registrados na execução que originou a tabela completa; medições podem variar entre execuções.
 
 ## Como os testes são avaliados
 
@@ -13,10 +13,10 @@ Gerado automaticamente por `python src/testes.py`. Não edite à mão: rode o sc
 
 | Rodada | Testes | Acertos | Taxa de acerto | Tempo médio (ms) |
 |---|---|---|---|---|
-| rodada 1 | 19 | 19 | 100.0% | 1.726 |
-| rodada 2 | 12 | 11 | 91.7% | 2.219 |
-| rodada 3 | 12 | 10 | 83.3% | 2.475 |
-| **Total** | 43 | 40 | **93.0%** | 2.072 |
+| rodada 1 | 19 | 19 | 100.0% | 1.929 |
+| rodada 2 | 12 | 11 | 91.7% | 2.591 |
+| rodada 3 | 12 | 10 | 83.3% | 2.603 |
+| **Total** | 43 | 40 | **93.0%** | 2.302 |
 
 ## Antes e depois das melhorias
 
