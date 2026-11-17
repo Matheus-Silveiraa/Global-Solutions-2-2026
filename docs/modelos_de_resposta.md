@@ -53,4 +53,4 @@ As mesmas 28 perguntas que têm um registro esperado (rodadas 1, 2 e 3) foram re
 - **Clareza:** o maior bloco de texto contínuo do A tem em média 93 palavras, contra 30 do B, o que torna a leitura mais fácil.
 - **Transparência:** só o B mostra a data da verificação e declara que não é canal oficial, o que é exigido pelo enunciado.
 
-**Limitação desta comparação:** os critérios refletem os requisitos do trabalho, e o B foi desenhado para cumpri-los, então a vantagem é em parte por construção. A clareza percebida por pessoas reais não foi medida; o teste de usabilidade pode incluir a pergunta "qual formato você achou mais fácil de entender?" para completar a comparação.
+**Limitação desta comparação:** os critérios refletem os requisitos do trabalho, e o B foi desenhado para cumpri-los, então a vantagem é em parte por construção. A clareza percebida por pessoas reais não foi medida; A clareza percebida por usuários não foi medida nesta avaliação.nta "qual formato você achou mais fácil de entender?" para completar a comparação.
