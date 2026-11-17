@@ -176,7 +176,7 @@ Os testes automáticos (`src/testes.py`) executam **43 casos** em três rodadas:
 ## 📎 Links
 
 * **Repositório:** [GitHub - Global-Solutions-2-2026](https://github.com/Matheus-Silveiraa/Global-Solutions-2-2026)
-* **Vídeo de apresentação:** ainda será gravado e publicado como não listado no YouTube.
+* **Vídeo de apresentação:** [YouTube — Citizen Assist AI (não listado)](https://youtu.be/oBIZX8gStEM)
 
 ## 🧠 Decisões técnicas
 
