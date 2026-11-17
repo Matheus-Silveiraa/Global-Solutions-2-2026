@@ -1,6 +1,6 @@
 # Base de conhecimento
 
-Arquivo: `data/base_conhecimento.json` (versão 1.2, 22 registros, 3 temas).
+Arquivo: `data/base_conhecimento.json` (versão 1.3, 22 registros, 3 temas).
 
 ## Estrutura do arquivo
 
@@ -32,7 +32,7 @@ registros  -> lista de registros (ver campos abaixo)
 
 ## Origem das orientações
 
-Páginas oficiais conferidas pelo autor em 04/11/2026: gov.br, Tribunal Superior Eleitoral, Receita Federal, Ministério do Trabalho e Emprego, Caixa (FGTS), Meu INSS, Senatran, Detran-SP e Planalto (Código de Trânsito Brasileiro). A lista completa está no campo `referencia` de cada registro.
+Páginas oficiais conferidas pelo autor em 04/11/2026, com atualização da referência de transferência de veículo em 17/11/2026: gov.br, Tribunal Superior Eleitoral, Receita Federal, Ministério do Trabalho e Emprego, Caixa (FGTS), Meu INSS, Senatran, Detran-SP, Poupatempo e Planalto (Código de Trânsito Brasileiro). A lista completa está no campo `referencia` de cada registro.
 
 Regra editorial: valores, taxas e prazos que mudam não entram no texto da orientação; ficam no `aviso`, mandando consultar a fonte.
 
@@ -51,6 +51,6 @@ Regra editorial: valores, taxas e prazos que mudam não entram no texto da orien
 - Registro sem campo obrigatório, com tema inexistente, data fora do formato, referência sem URL ou id repetido: o registro é ignorado com aviso.
 - `relacionados` apontando para id que não existe: a ligação é ignorada com aviso.
 
-## Pendência conhecida
+## Atualização de referência
 
-- **VH-04 (transferência de veículo):** tem só a referência do Código de Trânsito. Convém acrescentar a página específica do serviço de transferência no Poupatempo/Detran-SP (Serviços > Veículos > Registro e transferências > Transferência do veículo).
+- **VH-04 (transferência de veículo):** além do Código de Trânsito Brasileiro, agora inclui a Carta de Serviços do Poupatempo/Detran-SP [Transferir Propriedade de Veículo Registrado em São Paulo](https://www.poupatempo.sp.gov.br/carta/859FFA63-4EEB-472A-843B-F9595D5AAA32), conferida em 17/11/2026. A página oficial descreve etapas, documentação e canais de solicitação.
