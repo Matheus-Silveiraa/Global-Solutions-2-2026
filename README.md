@@ -151,13 +151,13 @@ Os testes automáticos (`src/testes.py`) executam **43 casos** em três rodadas:
 - No primeiro resultado, as **reformulações** foram as que mais erraram (por exemplo, "fundo de garantia" não aparecia nas palavras-chave do FGTS), porque a busca depende de palavras. Fora do tema e entradas inválidas funcionaram desde o início.
 - As melhorias foram duas: mais **palavras-chave e sinônimos** nos dados (sem mexer nas regras do programa) e **maior peso para o subtema** na pontuação.
 - Os 3 casos restantes são consultas sobre identidade que o assistente tratou como **ambíguas**: validade da CIN (H08), custo da nova identidade (R01) e emissão pelo Poupatempo (R09). Eles contam como erro porque o teste esperava uma resposta direta, mas o sistema pediu que a pessoa escolhesse entre opções em vez de inventar uma resposta.
-- O tempo de consulta é de poucos milissegundos, porque a base é pequena. O tempo que importa para a pessoa é o do teste de usabilidade ([`docs/teste_usabilidade.md`](docs/teste_usabilidade.md)).
+- O tempo de consulta é de poucos milissegundos, porque a base é pequena. Os tempos variam conforme a execução e o ambiente.
 
-**Facilidade de uso:** ainda não avaliada por participantes externos. Até o momento, somente o autor utilizou o sistema. Portanto, não há resultados de usabilidade com usuários a declarar. O roteiro e a ficha de registro estão em [`docs/teste_usabilidade.md`](docs/teste_usabilidade.md).
+**Comparação dos modelos de resposta:** em 28 respostas avaliadas, o Modelo A atendeu, em média, 2 de 5 critérios e não teve respostas completas (0/28). O Modelo B atendeu aos 5 critérios em todas as respostas (28/28). O maior bloco médio teve 92,8 palavras no Modelo A e 30,3 no Modelo B. Os critérios e as limitações dessa comparação estão detalhados em [`docs/modelos_de_resposta.md`](docs/modelos_de_resposta.md).
 
 **Duas melhorias possíveis:** (1) tolerar erros de digitação (por exemplo, comparar palavras por distância de edição); (2) pedir um esclarecimento em vez de listar opções quando a consulta for ambígua, e aprender com as escolhas das pessoas.
 
-**Limitações da avaliação:** o conjunto de testes é pequeno (43 casos); as perguntas foram escritas pelo próprio autor, o que favorece o sistema; as melhorias foram guiadas pelos erros das três rodadas, então a taxa final é **otimista** e uma avaliação justa exigiria perguntas novas escritas por outras pessoas; o tempo medido é o do programa, não o de uma pessoa usando; nenhum participante externo realizou as tarefas de usabilidade até a data desta versão; a comparação dos modelos A e B usa critérios objetivos (fonte, aviso, data, tópicos), e a clareza percebida por usuários não foi medida; e as orientações mudam com o tempo, então a base precisa ser reverificada.
+**Limitações da avaliação:** o conjunto de testes é pequeno (43 casos); as perguntas foram escritas pelo próprio autor, o que favorece o sistema; as melhorias foram guiadas pelos erros das três rodadas, então a taxa final é **otimista** e uma avaliação justa exigiria perguntas novas escritas por outras pessoas; o tempo medido é o do programa, não o de uma pessoa usando; a comparação dos modelos A e B usa critérios objetivos (fonte, aviso, data, tópicos), e a clareza percebida por usuários não foi medida; e as orientações mudam com o tempo, então a base precisa ser reverificada.
 
 ## 🔒 Cuidados: clareza, acessibilidade, privacidade e informação não oficial
 
@@ -169,7 +169,7 @@ Os testes automáticos (`src/testes.py`) executam **43 casos** em três rodadas:
 ## 📁 Estrutura de pastas
 
 * **`data/`** `base_conhecimento.json` (a base verificada), `resultados_testes.csv` (resultados finais) e `resultados_testes_antes.csv` (antes das melhorias).
-* **`docs/`** documentação: base de conhecimento, modelos de resposta, resultados de testes, teste de usabilidade, uso de IA e roteiro do vídeo.
+* **`docs/`** documentação: base de conhecimento, modelos de resposta, resultados de testes, uso de IA e roteiro do vídeo.
 * **`src/`** código-fonte: `sistema.py` (interface), `base.py` (leitura e validação), `busca.py` (busca), `respostas.py` (modelos e mensagens), `testes.py` (testes e indicadores) e `auditoria.py` (painel de demonstração dos resultados).
 * **`README.md`** este arquivo.
 
