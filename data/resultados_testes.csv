@@ -1,0 +1,44 @@
+rodada,id,categoria,entrada,esperado,obtido,acerto,tempo_ms
+rodada 1,T01,direta,Como tiro a segunda via do título de eleitor?,DP-08,DP-08,sim,3.1574
+rodada 1,T02,direta,Quanto tempo tenho para pedir o seguro-desemprego?,TB-02,TB-02,sim,2.7781
+rodada 1,T03,direta,Como renovar a CNH?,VH-02,VH-02,sim,1.3749
+rodada 1,T04,direta,Meu RG antigo ainda vale?,DP-02,DP-02,sim,2.9294
+rodada 1,T05,direta,Como consulto o saldo do FGTS?,TB-04,TB-04,sim,1.9594
+rodada 1,T06,direta,Qual o prazo para transferir um carro que comprei?,VH-04,VH-04,sim,2.5681
+rodada 1,T07,reformulacao,"perdi meu título eleitoral, o que eu faço",DP-08,DP-08,sim,2.1917
+rodada 1,T08,reformulacao,"fui demitido sem justa causa, até quando posso pedir o benefício?",TB-02,TB-02,sim,3.6065
+rodada 1,T09,reformulacao,minha habilitação está vencendo,VH-02,VH-02,sim,2.0816
+rodada 1,T10,reformulacao,quero saber quanto tenho de fundo de garantia,TB-04,TB-04,sim,1.4285
+rodada 1,T11,fora_do_tema,Como funciona o imposto de renda?,sem_resposta,sem_resposta,sim,1.7303
+rodada 1,T12,fora_do_tema,Qual a previsão do tempo para amanhã?,sem_resposta,sem_resposta,sim,2.1621
+rodada 1,L01,limite,,vazia,vazia,sim,0.0003
+rodada 1,L02,limite,???,invalida,invalida,sim,0.0019
+rodada 1,L03,limite,segunda via,ambigua,"ambigua: DP-05, DP-08, DP-06",sim,1.383
+rodada 1,L04,limite,quanto custa exatamente a 2ª via do RG em SP?,DP-05,DP-05,sim,3.3896
+rodada 1,L06,limite,"meu cpf é 123.456.789-09, como regularizar?",dado_pessoal,dado_pessoal,sim,0.0017
+rodada 1,L05,limite,9 / abc / (vazio) / 2,3 mensagens de erro e depois aceitar 2,"escolhido=2, mensagens=3",sim,0.0251
+rodada 1,T13,navegacao,DP-01 -> DP-05 pelas opções de continuidade,caminho com até 3 passos; DP-01 com 3 ou mais opções,DP-01 -> DP-03 -> DP-05 (menor número de opções em um registro: 2),sim,0.0193
+rodada 2,H01,direta,quero tirar minha primeira habilitação,VH-01,VH-01,sim,1.9393
+rodada 2,H02,direta,como vejo se meu CPF está regular,DP-07,DP-07,sim,2.6081
+rodada 2,H03,direta,como pegar a carteira de trabalho no celular,TB-01,TB-01,sim,2.5904
+rodada 2,H04,direta,o que é o cadastro único,TB-05,TB-05,sim,1.4456
+rodada 2,H05,direta,meu carro precisa de licenciamento todo ano?,VH-03,VH-03,sim,3.4338
+rodada 2,H06,direta,"recebi uma multa de trânsito, posso pagar com desconto?",VH-05,VH-05,sim,2.9009
+rodada 2,H07,reformulacao,como faço para sacar meu fundo de garantia,TB-04,TB-04,sim,1.5587
+rodada 2,H08,reformulacao,por quanto tempo vale a nova identidade,DP-04,ambigua,NÃO,2.1213
+rodada 2,H09,reformulacao,onde me inscrevo no bolsa família,TB-05,TB-05,sim,2.0686
+rodada 2,H10,reformulacao,meu RG vai deixar de valer?,DP-02,DP-02,sim,2.5203
+rodada 2,H11,fora_do_tema,quanto custa um iphone novo,sem_resposta,sem_resposta,sim,2.0913
+rodada 2,H12,fora_do_tema,como abrir uma empresa,sem_resposta,sem_resposta,sim,1.347
+rodada 3,R01,direta,quanto custa tirar a identidade de novo,DP-05,ambigua,NÃO,2.6459
+rodada 3,R02,reformulacao,esqueci onde guardei meu título de eleitor,DP-08,DP-08,sim,2.7654
+rodada 3,R03,direta,como faço o agendamento no INSS?,TB-03,TB-03,sim,1.4727
+rodada 3,R04,direta,quando termina o prazo do abono do PIS,TB-06,TB-06,sim,2.7688
+rodada 3,R05,reformulacao,"preciso vender meu carro, o que devo fazer",VH-04,VH-04,sim,2.1379
+rodada 3,R06,direta,como baixar a CNH digital no celular,VH-06,VH-06,sim,2.2454
+rodada 3,R07,reformulacao,tirar carteira de motorista pela primeira vez,VH-01,VH-01,sim,4.0056
+rodada 3,R08,reformulacao,o que fazer se meu CPF estiver irregular,DP-07,DP-07,sim,1.9456
+rodada 3,R09,direta,emitir a identidade nova pelo poupatempo,DP-03,ambigua,NÃO,3.2722
+rodada 3,R10,reformulacao,como funciona o seguro desemprego para quem foi demitido,TB-02,TB-02,sim,2.723
+rodada 3,R11,fora_do_tema,como emitir passaporte,sem_resposta,sem_resposta,sim,1.4392
+rodada 3,R12,fora_do_tema,qual a melhor receita de bolo,sem_resposta,sem_resposta,sim,2.2725

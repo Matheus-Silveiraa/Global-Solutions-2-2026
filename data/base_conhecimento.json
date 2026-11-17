@@ -1,0 +1,727 @@
+{
+  "projeto": "Citizen Assist AI",
+  "versao_base": "1.2",
+  "data_revisao": "2026-11-12",
+  "observacao": "Base revisada com fontes oficiais consultadas em 04/11/2026. Os textos são orientações informativas, não substituem atendimento dos órgãos públicos. Campos de valores e prazos sujeitos a atualização foram removidos ou acompanhados de aviso.",
+  "temas": {
+    "DP": "Documentos pessoais",
+    "TB": "Trabalho e benefícios",
+    "VH": "Veículo e habilitação"
+  },
+  "registros": [
+    {
+      "id": "DP-01",
+      "tema": "DP",
+      "subtema": "RG/CIN",
+      "pergunta": "O que é a CIN?",
+      "palavras_chave": [
+        "cin",
+        "nova identidade",
+        "novo rg",
+        "cpf como número",
+        "carteira de identidade nacional"
+      ],
+      "orientacao": "A Carteira de Identidade Nacional (CIN) é o documento nacional de identificação que substitui o antigo modelo estadual de RG e utiliza o CPF como número único. Em São Paulo, a primeira via é gratuita e o atendimento deve ser agendado pelos canais oficiais do Poupatempo. Depois da emissão, a versão digital pode ser adicionada à carteira de documentos do aplicativo Gov.br.",
+      "referencia": [
+        {
+          "orgao": "Governo do Estado de São Paulo — Serviços SP",
+          "titulo": "Obter Carteira de Identidade Nacional (CIN)",
+          "url": "https://servicos.sp.gov.br/fcarta/d97c3844-a2d9-4c9e-b364-cb4feb26a1fb"
+        },
+        {
+          "orgao": "Governo Federal — Governo Digital",
+          "titulo": "Perguntas frequentes sobre a CIN",
+          "url": "https://www.gov.br/governodigital/pt-br/identidade/cin/perguntas-frequentes-sobre-a-cin/"
+        }
+      ],
+      "data_verificacao": "2026-11-04",
+      "aviso": "A primeira via é gratuita em São Paulo. O valor da segunda via varia: consulte a tabela estadual vigente.",
+      "relacionados": [
+        "DP-02",
+        "DP-03",
+        "DP-04"
+      ]
+    },
+    {
+      "id": "DP-02",
+      "tema": "DP",
+      "subtema": "RG/CIN",
+      "pergunta": "Meu RG antigo ainda vale?",
+      "palavras_chave": [
+        "rg antigo",
+        "validade",
+        "ainda vale",
+        "trocar",
+        "obrigatório",
+        "2032",
+        "deixar de valer"
+      ],
+      "orientacao": "Sim. O RG no modelo antigo continua válido até 28 de fevereiro de 2032. A substituição pela CIN pode ser solicitada antes desse prazo, mas não é necessário trocar o documento imediatamente apenas por ele ser do modelo antigo.",
+      "referencia": [
+        {
+          "orgao": "Governo Federal — Ministério da Gestão e da Inovação",
+          "titulo": "Perguntas e respostas sobre a nova Carteira de Identidade Nacional",
+          "url": "https://www.gov.br/gestao/pt-br/identidade-nacional"
+        }
+      ],
+      "data_verificacao": "2026-11-04",
+      "aviso": "A data-limite oficial informada é 28/02/2032. Confirme na página do Governo Federal sobre a identidade nacional.",
+      "relacionados": [
+        "DP-01",
+        "DP-03"
+      ]
+    },
+    {
+      "id": "DP-03",
+      "tema": "DP",
+      "subtema": "RG/CIN",
+      "pergunta": "Como solicito a CIN?",
+      "palavras_chave": [
+        "solicitar",
+        "agendar",
+        "tirar",
+        "emitir",
+        "documentos necessários",
+        "cin",
+        "poupatempo"
+      ],
+      "orientacao": "Em São Paulo, inicie pelo agendamento nos canais oficiais do Poupatempo. No atendimento, apresente a certidão de nascimento ou casamento correspondente ao estado civil atual e informe o CPF; documentos devem estar legíveis e sem rasuras. A coleta de fotografia e dados biométricos ocorre no atendimento. Consulte a página oficial antes de comparecer, pois exigências específicas podem variar conforme a situação do solicitante.",
+      "referencia": [
+        {
+          "orgao": "Governo do Estado de São Paulo — Serviços SP / IIRGD",
+          "titulo": "Obter Carteira de Identidade Nacional (CIN)",
+          "url": "https://servicos.sp.gov.br/fcarta/d97c3844-a2d9-4c9e-b364-cb4feb26a1fb"
+        }
+      ],
+      "data_verificacao": "2026-11-04",
+      "aviso": "O procedimento descrito é o de São Paulo. Pessoas naturalizadas, nascidas no exterior ou menores de idade podem ter documentação complementar.",
+      "relacionados": [
+        "DP-01",
+        "DP-05",
+        "DP-07"
+      ]
+    },
+    {
+      "id": "DP-04",
+      "tema": "DP",
+      "subtema": "RG/CIN",
+      "pergunta": "Qual a validade da CIN?",
+      "palavras_chave": [
+        "validade",
+        "prazo",
+        "quantos anos",
+        "renovar",
+        "cin",
+        "quanto tempo vale",
+        "duração"
+      ],
+      "orientacao": "A validade da CIN depende da idade na data de emissão: 5 anos para pessoas de 0 a 12 anos incompletos; 10 anos para pessoas de 12 a 60 anos incompletos; e prazo indeterminado para pessoas com mais de 60 anos.",
+      "referencia": [
+        {
+          "orgao": "Governo Federal — Governo Digital",
+          "titulo": "A CIN terá validade?",
+          "url": "https://www.gov.br/governodigital/pt-br/identidade/identificacao-do-cidadao-e-carteira-de-identidade-nacional/perguntas-frequentes-sobre-a-cin/a-nova-carteira-de-identidade"
+        }
+      ],
+      "data_verificacao": "2026-11-04",
+      "aviso": "O prazo de validade depende da idade na data da emissão. Confira as faixas na página oficial antes de planejar a renovação.",
+      "relacionados": [
+        "DP-01",
+        "DP-05"
+      ]
+    },
+    {
+      "id": "DP-05",
+      "tema": "DP",
+      "subtema": "RG/CIN",
+      "pergunta": "Quanto custa a 2ª via?",
+      "palavras_chave": [
+        "custo",
+        "taxa",
+        "segunda via",
+        "perdi",
+        "gratuito",
+        "valor",
+        "rg",
+        "cin",
+        "identidade"
+      ],
+      "orientacao": "A primeira via da CIN é gratuita em São Paulo. Para a segunda via, consulte o serviço oficial do Poupatempo/IIRGD antes de solicitar: a página consultada confirma a gratuidade da primeira emissão, mas não apresenta, no trecho validado, um valor geral e atual para a segunda via. Não é seguro informar um preço sem essa confirmação.",
+      "referencia": [
+        {
+          "orgao": "Governo do Estado de São Paulo — Serviços SP / IIRGD",
+          "titulo": "Obter Carteira de Identidade Nacional (CIN)",
+          "url": "https://servicos.sp.gov.br/fcarta/d97c3844-a2d9-4c9e-b364-cb4feb26a1fb"
+        }
+      ],
+      "data_verificacao": "2026-11-04",
+      "aviso": "O valor da segunda via não foi confirmado nesta verificação. Consulte o serviço oficial do Poupatempo antes de solicitar.",
+      "relacionados": [
+        "DP-03"
+      ]
+    },
+    {
+      "id": "DP-06",
+      "tema": "DP",
+      "subtema": "CPF",
+      "pergunta": "Como emito o comprovante do CPF?",
+      "palavras_chave": [
+        "cpf",
+        "segunda via",
+        "comprovante",
+        "cartão",
+        "perdi",
+        "imprimir",
+        "emitir"
+      ],
+      "orientacao": "O comprovante de inscrição no CPF pode ser obtido gratuitamente pelo serviço oficial da Receita Federal. Acesse a página, informe os dados solicitados e gere o comprovante para impressão ou uso digital. O cartão plástico de CPF não é mais emitido; o comprovante digital ou impresso tem validade.",
+      "referencia": [
+        {
+          "orgao": "Receita Federal",
+          "titulo": "Obter Cartão de CPF",
+          "url": "https://www.gov.br/pt-br/servicos/obter-cartao-de-cpf"
+        }
+      ],
+      "data_verificacao": "2026-11-04",
+      "aviso": "A emissão deve ser feita pelos canais oficiais da Receita Federal. Confirme na página oficial qual caminho está disponível.",
+      "relacionados": [
+        "DP-01",
+        "DP-07"
+      ]
+    },
+    {
+      "id": "DP-07",
+      "tema": "DP",
+      "subtema": "CPF",
+      "pergunta": "Como consulto a situação do CPF?",
+      "palavras_chave": [
+        "cpf regular",
+        "situação cadastral",
+        "suspenso",
+        "pendente",
+        "regularizar",
+        "cancelado",
+        "irregular",
+        "cpf irregular"
+      ],
+      "orientacao": "Consulte a situação cadastral diretamente no serviço Meu CPF da Receita Federal. Entre as situações possíveis estão regular, suspenso, pendente de regularização, falecido, cancelado e nulo. Se houver pendência, siga a orientação indicada pela Receita para identificar a causa e corrigir o cadastro.",
+      "referencia": [
+        {
+          "orgao": "Receita Federal",
+          "titulo": "Meu CPF — situações cadastrais e serviços",
+          "url": "https://www.gov.br/receitafederal/pt-br/assuntos/meu-cpf"
+        },
+        {
+          "orgao": "Receita Federal",
+          "titulo": "Consultar Cadastro de Pessoa Física (CPF)",
+          "url": "https://www.gov.br/pt-br/servicos/consultar-cadastro-de-pessoas-fisicas"
+        }
+      ],
+      "data_verificacao": "2026-11-04",
+      "aviso": "A consulta deve ser feita pelo titular nos canais oficiais da Receita Federal. Este assistente não pede nem guarda o número do CPF; não o informe aqui.",
+      "relacionados": [
+        "DP-06",
+        "DP-03"
+      ]
+    },
+    {
+      "id": "DP-08",
+      "tema": "DP",
+      "subtema": "Título de eleitor",
+      "pergunta": "Perdi meu título, como tiro a 2ª via?",
+      "palavras_chave": [
+        "título de eleitor",
+        "segunda via",
+        "perdi",
+        "extraviei",
+        "imprimir",
+        "título net",
+        "e-título"
+      ],
+      "orientacao": "Se a inscrição estiver regular ou suspensa, é possível obter a via digital pelo aplicativo e-Título ou imprimir o documento pelo Autoatendimento Eleitoral do TSE. Também é possível solicitar a via impressa em uma unidade da Justiça Eleitoral. Se houver pendências eleitorais, regularize a situação pelos canais oficiais antes de tentar emitir o documento.",
+      "referencia": [
+        {
+          "orgao": "Tribunal Superior Eleitoral",
+          "titulo": "Não sei onde está o meu título eleitoral. Como faço para recuperá-lo?",
+          "url": "https://www.tse.jus.br/comunicacao/noticias/2025/Fevereiro/nao-sei-onde-esta-o-meu-titulo-eleitoral-como-faco-para-recupera-lo"
+        },
+        {
+          "orgao": "Tribunal Superior Eleitoral",
+          "titulo": "Carta de serviços ao eleitor",
+          "url": "https://www.tse.jus.br/servicos-eleitorais/servicos/carta-de-servicos-ao-eleitor"
+        }
+      ],
+      "data_verificacao": "2026-11-04",
+      "aviso": "A disponibilidade de operações do Título Net pode ser suspensa em períodos eleitorais. Verifique a página do TSE e do TRE do estado.",
+      "relacionados": [
+        "DP-09",
+        "DP-10"
+      ]
+    },
+    {
+      "id": "DP-09",
+      "tema": "DP",
+      "subtema": "Título de eleitor",
+      "pergunta": "O que é o e-Título?",
+      "palavras_chave": [
+        "e-título",
+        "título digital",
+        "aplicativo",
+        "votar com celular",
+        "documento digital"
+      ],
+      "orientacao": "O e-Título é o aplicativo oficial da Justiça Eleitoral que disponibiliza a versão digital do título e reúne serviços como consulta ao local de votação, certidões e justificativa eleitoral. Para identificação no dia da votação, a foto do eleitor precisa aparecer no aplicativo; caso contrário, deve ser apresentado documento oficial com foto.",
+      "referencia": [
+        {
+          "orgao": "Tribunal Superior Eleitoral",
+          "titulo": "Perguntas frequentes sobre o aplicativo e-Título",
+          "url": "https://www.tse.jus.br/servicos-eleitorais/servicos/aplicativo-e-titulo/perguntas-frequentes-faq"
+        }
+      ],
+      "data_verificacao": "2026-11-04",
+      "aviso": "Regras e prazos do e-Título podem mudar perto das eleições. Confirme na página oficial do TSE antes de votar.",
+      "relacionados": [
+        "DP-08",
+        "DP-10"
+      ]
+    },
+    {
+      "id": "DP-10",
+      "tema": "DP",
+      "subtema": "Título de eleitor",
+      "pergunta": "Como tiro o título pela primeira vez?",
+      "palavras_chave": [
+        "primeira via",
+        "título net",
+        "tirar título",
+        "16 anos",
+        "alistamento eleitoral",
+        "cartório eleitoral"
+      ],
+      "orientacao": "O primeiro título pode ser solicitado pelo Autoatendimento Eleitoral (Título Net) ou em uma unidade da Justiça Eleitoral. A partir dos 15 anos já é possível requerer o documento, mas o voto só pode ser exercido a partir dos 16 anos. Siga as instruções do TSE e acompanhe a solicitação, pois pode ser necessário comparecer ao cartório para concluir o atendimento.",
+      "referencia": [
+        {
+          "orgao": "Tribunal Superior Eleitoral",
+          "titulo": "Carta de serviços ao eleitor",
+          "url": "https://www.tse.jus.br/servicos-eleitorais/servicos/carta-de-servicos-ao-eleitor"
+        }
+      ],
+      "data_verificacao": "2026-11-04",
+      "aviso": "Serviços de alistamento podem ficar indisponíveis em períodos eleitorais. Confirme a disponibilidade atual no site do TSE ou em um cartório eleitoral.",
+      "relacionados": [
+        "DP-08",
+        "DP-09"
+      ]
+    },
+    {
+      "id": "TB-01",
+      "tema": "TB",
+      "subtema": "Carteira de Trabalho Digital",
+      "pergunta": "Como tiro a minha Carteira de Trabalho Digital?",
+      "palavras_chave": [
+        "carteira de trabalho",
+        "ctps",
+        "digital",
+        "app",
+        "baixar",
+        "emitir"
+      ],
+      "orientacao": "A Carteira de Trabalho Digital é gratuita e pode ser acessada pelo aplicativo oficial ou pela web, usando a conta Gov.br. O CPF é utilizado como identificador da carteira digital. O documento permite consultar dados pessoais e contratos de trabalho registrados.",
+      "referencia": [
+        {
+          "orgao": "Ministério do Trabalho e Emprego",
+          "titulo": "Perguntas frequentes — Carteira de Trabalho Digital",
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador/carteira-de-trabalho/perguntas-frequentes-carteira-de-trabalho-digital"
+        },
+        {
+          "orgao": "Ministério do Trabalho e Emprego",
+          "titulo": "Obter a Carteira de Trabalho",
+          "url": "https://www.gov.br/pt-br/servicos/obter-a-carteira-de-trabalho"
+        }
+      ],
+      "data_verificacao": "2026-11-04",
+      "aviso": "A CTPS Digital não substitui documento oficial de identificação civil. Guarde a CTPS física antiga quando ela for necessária para comprovar vínculos anteriores.",
+      "relacionados": [
+        "TB-02",
+        "TB-06",
+        "DP-06"
+      ]
+    },
+    {
+      "id": "TB-02",
+      "tema": "TB",
+      "subtema": "Seguro-desemprego",
+      "pergunta": "Como peço e qual o prazo do seguro-desemprego?",
+      "palavras_chave": [
+        "seguro desemprego",
+        "demitido",
+        "prazo",
+        "120 dias",
+        "solicitar",
+        "requerimento",
+        "demissão",
+        "sem justa causa",
+        "desempregado",
+        "benefício desemprego"
+      ],
+      "orientacao": "Para o trabalhador formal, o pedido pode ser feito a partir do 7º dia contado da demissão e dentro do prazo de até 120 dias. A solicitação pode ser realizada pelo portal Gov.br ou pelo aplicativo Carteira de Trabalho Digital. Tenha em mãos o Requerimento do Seguro-Desemprego fornecido pelo empregador e o CPF.",
+      "referencia": [
+        {
+          "orgao": "Governo Federal — Ministério do Trabalho e Emprego",
+          "titulo": "Perguntas frequentes — Seguro-Desemprego",
+          "url": "https://www.gov.br/pt-br/temas/perguntas-frequentes-seguro-desemprego"
+        },
+        {
+          "orgao": "Ministério do Trabalho e Emprego",
+          "titulo": "Solicitar o Seguro-Desemprego",
+          "url": "https://www.gov.br/pt-br/servicos/solicitar-o-seguro-desemprego"
+        }
+      ],
+      "data_verificacao": "2026-11-04",
+      "aviso": "Prazo e canais podem variar conforme a categoria do trabalhador. Empregado doméstico deve observar o atendimento indicado pelo MTE. Os valores das parcelas mudam: consulte o MTE.",
+      "relacionados": [
+        "TB-01",
+        "TB-04"
+      ]
+    },
+    {
+      "id": "TB-03",
+      "tema": "TB",
+      "subtema": "INSS",
+      "pergunta": "Como agendo atendimento no INSS?",
+      "palavras_chave": [
+        "inss",
+        "meu inss",
+        "agendar",
+        "135",
+        "aposentadoria",
+        "benefício",
+        "atendimento"
+      ],
+      "orientacao": "Muitos serviços do INSS podem ser solicitados pelo site ou aplicativo Meu INSS, com acesso pela conta Gov.br. Se precisar de atendimento por telefone, ligue para a Central 135, que funciona de segunda a sábado, das 7h às 22h, no horário de Brasília. Consulte o Meu INSS para verificar se o serviço desejado exige agendamento presencial.",
+      "referencia": [
+        {
+          "orgao": "Instituto Nacional do Seguro Social",
+          "titulo": "Saiba tudo sobre o Meu INSS",
+          "url": "https://www.gov.br/inss/pt-br/canais_atendimento/meu-inss/meu-inss"
+        },
+        {
+          "orgao": "Instituto Nacional do Seguro Social",
+          "titulo": "Central 135",
+          "url": "https://www.gov.br/inss/pt-br/canais_atendimento/central-135"
+        }
+      ],
+      "data_verificacao": "2026-11-04",
+      "aviso": "Serviços, canais e prazos de análise variam. Este assistente não garante atendimento, concessão de benefício nem prazo de análise.",
+      "relacionados": [
+        "TB-01",
+        "TB-05"
+      ]
+    },
+    {
+      "id": "TB-04",
+      "tema": "TB",
+      "subtema": "FGTS",
+      "pergunta": "Como consulto e quando posso sacar o FGTS?",
+      "palavras_chave": [
+        "fgts",
+        "saldo",
+        "sacar",
+        "demissão",
+        "saque aniversário",
+        "multa",
+        "extrato",
+        "fundo de garantia"
+      ],
+      "orientacao": "O aplicativo FGTS da Caixa permite consultar saldo e extratos, acompanhar solicitações e pedir saque quando houver uma modalidade legal disponível. O saque digital permite indicar uma conta bancária de titularidade do trabalhador para receber o valor liberado. Consulte no próprio aplicativo as modalidades e condições aplicáveis ao seu caso.",
+      "referencia": [
+        {
+          "orgao": "Caixa Econômica Federal",
+          "titulo": "Aplicativo FGTS",
+          "url": "https://www.caixa.gov.br/atendimento/aplicativos/fgts/Paginas/default.aspx"
+        },
+        {
+          "orgao": "Caixa Econômica Federal",
+          "titulo": "FGTS — benefícios do trabalhador",
+          "url": "https://www.caixa.gov.br/beneficios-trabalhador/fgts/Paginas/default.aspx"
+        }
+      ],
+      "data_verificacao": "2026-11-04",
+      "aviso": "As regras de saque, inclusive saque-aniversário e eventuais liberações extraordinárias, podem mudar. Confirme a elegibilidade e o valor no aplicativo FGTS ou na Caixa.",
+      "relacionados": [
+        "TB-02",
+        "TB-01"
+      ]
+    },
+    {
+      "id": "TB-05",
+      "tema": "TB",
+      "subtema": "CadÚnico",
+      "pergunta": "Como me inscrevo no Cadastro Único?",
+      "palavras_chave": [
+        "cadunico",
+        "cadastro único",
+        "cras",
+        "bolsa família",
+        "inscrição",
+        "renda"
+      ],
+      "orientacao": "A inscrição é gratuita e presencial em um posto de atendimento do município, como o CRAS ou um posto do Cadastro Único. Em regra, podem ser cadastradas famílias com renda mensal de até meio salário mínimo por pessoa; famílias com renda superior também podem ser incluídas quando isso for exigido por programa específico. O responsável familiar deve levar CPF de todas as pessoas da família, documento de identificação e, se houver, comprovante de residência.",
+      "referencia": [
+        {
+          "orgao": "Ministério do Desenvolvimento e Assistência Social",
+          "titulo": "Cadastro Único",
+          "url": "https://www.gov.br/mds/pt-br/acoes-e-programas/cadastro-unico/Cadastro-unico/"
+        },
+        {
+          "orgao": "Governo Federal",
+          "titulo": "Inscrever-se no Cadastro Único",
+          "url": "https://www.gov.br/pt-br/servicos/inscrever-se-no-cadastro-unico-para-programas-sociais-do-governo-federal"
+        }
+      ],
+      "data_verificacao": "2026-11-04",
+      "aviso": "A inscrição não garante concessão automática de benefício. A documentação e o atendimento devem ser confirmados no município.",
+      "relacionados": [
+        "TB-03",
+        "DP-01",
+        "DP-06",
+        "DP-08"
+      ]
+    },
+    {
+      "id": "TB-06",
+      "tema": "TB",
+      "subtema": "PIS/Pasep",
+      "pergunta": "Tenho direito ao abono salarial?",
+      "palavras_chave": [
+        "pis",
+        "pasep",
+        "abono salarial",
+        "calendário",
+        "quem tem direito",
+        "ano-base"
+      ],
+      "orientacao": "O direito ao abono salarial depende dos critérios legais relativos ao ano-base, como tempo mínimo de cadastro, atividade remunerada, remuneração média e informações corretas enviadas pelo empregador. No calendário de 2026, a referência é o ano-base 2024. Consulte a Carteira de Trabalho Digital ou o portal Gov.br para verificar sua habilitação e a data de pagamento.",
+      "referencia": [
+        {
+          "orgao": "Ministério do Trabalho e Emprego",
+          "titulo": "Obter o Abono Salarial",
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/mte/obter-o-abono-salarial"
+        },
+        {
+          "orgao": "Ministério do Trabalho e Emprego",
+          "titulo": "Abono Salarial",
+          "url": "https://www.gov.br/trabalho-e-emprego/pt-br/servicos/trabalhador/abono-salarial"
+        }
+      ],
+      "data_verificacao": "2026-11-04",
+      "aviso": "Esta informação vale para o calendário de 2026 (ano-base 2024), com saque disponível até 30/12/2026. Critérios e calendários mudam a cada ano.",
+      "relacionados": [
+        "TB-01",
+        "TB-04"
+      ]
+    },
+    {
+      "id": "VH-01",
+      "tema": "VH",
+      "subtema": "Primeira habilitação",
+      "pergunta": "Como tiro minha primeira CNH hoje?",
+      "palavras_chave": [
+        "primeira cnh",
+        "tirar habilitação",
+        "sem autoescola",
+        "exame",
+        "prova",
+        "primeira habilitação",
+        "carteira de motorista",
+        "primeira vez",
+        "tirar cnh"
+      ],
+      "orientacao": "O processo pode ser iniciado pelo aplicativo oficial CNH do Brasil. Em São Paulo, depois do requerimento e do curso teórico, o candidato deve abrir o processo no Detran-SP, realizar a coleta biométrica, avaliação psicológica e exame médico, além das provas e etapas práticas exigidas. O curso teórico pode ser feito pelo aplicativo ou por outras modalidades credenciadas.",
+      "referencia": [
+        {
+          "orgao": "Detran-SP — Serviços SP",
+          "titulo": "Iniciar Processo de 1ª Habilitação",
+          "url": "https://servicos.sp.gov.br/fcarta/391270A7-15C2-4FC2-BE72-38C4D14B4A1C"
+        },
+        {
+          "orgao": "Ministério dos Transportes",
+          "titulo": "CNH do Brasil: como solicitar a primeira habilitação pelo aplicativo",
+          "url": "https://www.gov.br/transportes/pt-br/assuntos/noticias/2025/12/cnh-do-brasil-como-solicitar-a-primeira-habilitacao-pelo-aplicativo"
+        }
+      ],
+      "data_verificacao": "2026-11-04",
+      "aviso": "As regras do processo de habilitação mudaram em 2025 e 2026. Confirme no Detran-SP quais etapas e modalidades estão disponíveis para você.",
+      "relacionados": [
+        "VH-02",
+        "VH-06",
+        "DP-01",
+        "DP-06"
+      ]
+    },
+    {
+      "id": "VH-02",
+      "tema": "VH",
+      "subtema": "Renovação da CNH",
+      "pergunta": "Minha CNH vence, como renovo?",
+      "palavras_chave": [
+        "renovar cnh",
+        "vencimento",
+        "renovação automática",
+        "bom condutor",
+        "exame médico",
+        "cnh vencendo",
+        "cnh vence",
+        "cnh vencida"
+      ],
+      "orientacao": "A renovação comum pode ser iniciada pelo serviço online do Detran-SP, seguida dos exames exigidos para a categoria e situação do condutor. Existe também renovação automática para condutores que atendem aos critérios legais do programa Bom Condutor; a regra exige, entre outros pontos, ausência de infrações sujeitas a pontuação nos 12 meses anteriores e realização prévia dos exames médicos de aptidão física e mental. Verifique no aplicativo CNH do Brasil se você está contemplado.",
+      "referencia": [
+        {
+          "orgao": "Detran-SP — Serviços SP",
+          "titulo": "Renovar CNH",
+          "url": "https://servicos.sp.gov.br/fcarta/F8D2DBE7-66BE-4AEC-9B0F-25912922D566"
+        },
+        {
+          "orgao": "Ministério dos Transportes",
+          "titulo": "Perguntas frequentes — renovação automática da CNH",
+          "url": "https://www.gov.br/transportes/pt-br/acesso-a-informacao/perguntas-frequentes?id=218&option=com_content"
+        }
+      ],
+      "data_verificacao": "2026-11-04",
+      "aviso": "A renovação automática tem restrições e regras de transição. Limites e elegibilidade devem ser conferidos na regra oficial atual e no aplicativo CNH do Brasil.",
+      "relacionados": [
+        "VH-01",
+        "VH-05",
+        "VH-06"
+      ]
+    },
+    {
+      "id": "VH-03",
+      "tema": "VH",
+      "subtema": "Licenciamento",
+      "pergunta": "Como pago e emito o CRLV?",
+      "palavras_chave": [
+        "licenciamento",
+        "crlv",
+        "documento do carro",
+        "renavam",
+        "taxa anual"
+      ],
+      "orientacao": "Em São Paulo, consulte os débitos do veículo no serviço de Licenciamento Anual do Detran-SP e efetue o pagamento da taxa. Depois da confirmação do pagamento e da quitação dos débitos que impedem o licenciamento, o CRLV-e fica disponível para acesso ou impressão pelo Detran-SP, pelo aplicativo CNH do Brasil ou pelo portal da Senatran. Tenha em mãos a placa e o Renavam.",
+      "referencia": [
+        {
+          "orgao": "Detran-SP — Serviços SP",
+          "titulo": "Realizar o Licenciamento Anual",
+          "url": "https://servicos.sp.gov.br/fcarta/1DD2C9F8-815F-49D4-9D47-F09885256ECE"
+        }
+      ],
+      "data_verificacao": "2026-11-04",
+      "aviso": "Taxa e calendário por final de placa mudam. Consulte a página oficial do Detran-SP para valores e datas atualizados.",
+      "relacionados": [
+        "VH-04",
+        "VH-05",
+        "VH-06"
+      ]
+    },
+    {
+      "id": "VH-04",
+      "tema": "VH",
+      "subtema": "Transferência de veículo",
+      "pergunta": "Comprei ou vendi um carro, o que fazer?",
+      "palavras_chave": [
+        "transferência",
+        "comprei carro",
+        "vendi",
+        "atpv-e",
+        "30 dias",
+        "comunicação de venda",
+        "vender carro",
+        "vender veículo",
+        "comprar carro",
+        "comprar veículo"
+      ],
+      "orientacao": "Na transferência de propriedade, o comprador deve providenciar a emissão do novo registro do veículo dentro do prazo legal de 30 dias, contado da assinatura do documento de transferência aplicável. Antes de concluir o processo, verifique débitos e restrições, reúna a documentação exigida pelo Detran-SP e realize a vistoria quando solicitada. O vendedor deve formalizar a comunicação de venda pelos canais do Detran.",
+      "referencia": [
+        {
+          "orgao": "Planalto — Código de Trânsito Brasileiro",
+          "titulo": "Lei nº 9.503/1997, art. 123 e art. 134",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm"
+        }
+      ],
+      "data_verificacao": "2026-11-04",
+      "aviso": "O fluxo e a documentação dependem do tipo de documento do veículo e do caso. Penalidades por atraso devem ser confirmadas no texto legal vigente e no Detran-SP.",
+      "relacionados": [
+        "VH-03",
+        "VH-05"
+      ]
+    },
+    {
+      "id": "VH-05",
+      "tema": "VH",
+      "subtema": "Multas",
+      "pergunta": "Recebi uma multa, e agora?",
+      "palavras_chave": [
+        "multa",
+        "notificação",
+        "desconto",
+        "recurso",
+        "defesa prévia",
+        "sne"
+      ],
+      "orientacao": "Leia a notificação para identificar o órgão autuador, a infração, os prazos e as formas de defesa ou pagamento. Pelo Sistema de Notificação Eletrônica (SNE), o desconto pode chegar a 40% quando o órgão participa do sistema e o proprietário reconhece a infração, optando por não apresentar defesa prévia nem recurso, além de pagar até o vencimento. O desconto comum previsto no CTB pode ser de 20% até o vencimento, conforme as condições legais.",
+      "referencia": [
+        {
+          "orgao": "Governo Federal — Senatran",
+          "titulo": "Obter desconto sobre o valor de multas de trânsito",
+          "url": "https://www.gov.br/pt-br/servicos/obter-desconto-sobre-o-valor-de-multas-de-transito"
+        },
+        {
+          "orgao": "Planalto — Código de Trânsito Brasileiro",
+          "titulo": "Lei nº 9.503/1997, art. 284",
+          "url": "https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm"
+        }
+      ],
+      "data_verificacao": "2026-11-04",
+      "aviso": "Este assistente não indica se vale recorrer ou pagar, pois isso depende do caso. O desconto de 40% depende dos requisitos do SNE e do reconhecimento da infração.",
+      "relacionados": [
+        "VH-02",
+        "VH-03",
+        "VH-06"
+      ]
+    },
+    {
+      "id": "VH-06",
+      "tema": "VH",
+      "subtema": "CNH digital",
+      "pergunta": "Como uso a CNH no celular?",
+      "palavras_chave": [
+        "cnh digital",
+        "app",
+        "cnh do brasil",
+        "cdt",
+        "gov.br",
+        "crlv digital"
+      ],
+      "orientacao": "A CNH Digital é acessada pelo aplicativo oficial CNH do Brasil, que substituiu o antigo aplicativo Carteira Digital de Trânsito. Para emitir o documento, é necessário possuir CNH válida com QR Code e acessar o serviço com a conta Gov.br. A versão digital tem a mesma validade jurídica da versão física em todo o território nacional.",
+      "referencia": [
+        {
+          "orgao": "Governo Federal — Serviço de emissão da CNH Digital",
+          "titulo": "Emitir a Carteira Nacional de Habilitação Digital",
+          "url": "https://www.gov.br/pt-br/servicos/emitir-a-carteira-nacional-de-habilitacao-digital-cnh-e"
+        },
+        {
+          "orgao": "Ministério dos Transportes",
+          "titulo": "Saiba mais sobre o programa CNH do Brasil",
+          "url": "https://www.gov.br/transportes/pt-br/conteudos-cnh-do-brasil/saiba-mais-sobre-o-programa"
+        }
+      ],
+      "data_verificacao": "2026-11-04",
+      "aviso": "A página oficial do serviço informa como requisitos CNH válida com QR Code (emitida a partir de maio de 2017) e conta Gov.br. Confirme os requisitos atuais na página oficial.",
+      "relacionados": [
+        "VH-01",
+        "VH-03",
+        "VH-05"
+      ]
+    }
+  ]
+}
