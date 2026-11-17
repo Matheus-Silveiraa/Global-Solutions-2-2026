@@ -1,31 +1,16 @@
-# FIAP - Faculdade de Informática e Administração Paulista
+# Citizen Assist AI - assistente de orientação cidadã - assistente de orientação cidadã
 
-<p align="center">
-<a href="https://www.fiap.com.br/">
-  <img src="../../../assets/logo-fiap.png"
-       alt="FIAP - Faculdade de Informática e Administração Paulista"
-       width="40%">
-</a>
-</p>
+## Identificação
 
-<br>
+Projeto individual (Global Solution 2026.2 - desafio CitizenTech).
 
-# Citizen Assist AI - assistente de orientação cidadã
+- **Aluno:** Matheus Silveira
+- **RM:** 570447
+- **GitHub:** [Matheus-Silveiraa](https://github.com/Matheus-Silveiraa)
+- **Repositório:** [Global-Solutions-2-2026](https://github.com/Matheus-Silveiraa/Global-Solutions-2-2026)
 
-## Equipe
+## 👩‍🏫 Coordenação
 
-Projeto individual (Global Solution 2026.2 - desafio CitizenTech)
-
-## 👨‍🎓 Integrantes
-
-- Matheus Silveira - RM: **[PREENCHER RM]** - [GitHub/LinkedIn: PREENCHER]
-
-## 👩‍🏫 Professores
-
-### Tutor(a)
-- [PREENCHER nome do tutor]
-
-### Coordenador(a)
 - <a href="https://www.linkedin.com/in/andregodoichiovato/">André Godoi Chiovato</a>
 
 ## 📜 Descrição
@@ -160,11 +145,11 @@ Os testes automáticos (`src/testes.py`) executam **43 casos** em três rodadas:
 - Os 3 erros restantes são consultas sobre "identidade" que o assistente tratou como **ambíguas** (CIN, custo e validade), pedindo que a pessoa escolha em vez de responder. Eles contam como erro porque o teste esperava uma resposta direta, mas o comportamento é seguro: o assistente não inventa uma resposta e deixa a pessoa escolher.
 - O tempo de consulta é de poucos milissegundos, porque a base é pequena. O tempo que importa para a pessoa é o do teste de usabilidade ([`docs/teste_usabilidade.md`](docs/teste_usabilidade.md)).
 
-**Facilidade de uso:** [PREENCHER após o teste de usabilidade: nº de pessoas, taxa de conclusão das tarefas, tempo médio e dificuldades.]
+**Facilidade de uso:** ainda não avaliada por participantes externos. Até o momento, somente o autor utilizou o sistema. Portanto, não há resultados de usabilidade com usuários a declarar. O roteiro e a ficha de registro estão em [`docs/teste_usabilidade.md`](docs/teste_usabilidade.md).
 
 **Duas melhorias possíveis:** (1) tolerar erros de digitação (por exemplo, comparar palavras por distância de edição); (2) pedir um esclarecimento em vez de listar opções quando a consulta for ambígua, e aprender com as escolhas das pessoas.
 
-**Limitações da avaliação:** o conjunto de testes é pequeno (43 casos); as perguntas foram escritas pelo próprio autor, o que favorece o sistema; as melhorias foram guiadas pelos erros das três rodadas, então a taxa final é **otimista** e uma avaliação justa exigiria perguntas novas escritas por outras pessoas; o tempo medido é o do programa, não o de uma pessoa usando; a comparação dos modelos A e B usa critérios objetivos (fonte, aviso, data, tópicos), e a clareza percebida por usuários não foi medida; e as orientações mudam com o tempo, então a base precisa ser reverificada.
+**Limitações da avaliação:** o conjunto de testes é pequeno (43 casos); as perguntas foram escritas pelo próprio autor, o que favorece o sistema; as melhorias foram guiadas pelos erros das três rodadas, então a taxa final é **otimista** e uma avaliação justa exigiria perguntas novas escritas por outras pessoas; o tempo medido é o do programa, não o de uma pessoa usando; nenhum participante externo realizou as tarefas de usabilidade até a data desta versão; a comparação dos modelos A e B usa critérios objetivos (fonte, aviso, data, tópicos), e a clareza percebida por usuários não foi medida; e as orientações mudam com o tempo, então a base precisa ser reverificada.
 
 ## 🔒 Cuidados: clareza, acessibilidade, privacidade e informação não oficial
 
@@ -182,7 +167,7 @@ Os testes automáticos (`src/testes.py`) executam **43 casos** em três rodadas:
 
 ## 📎 Links
 
-* **[Vídeo de apresentação no YouTube (não listado)]**([PREENCHER link do vídeo])
+* **Vídeo de apresentação:** ainda será gravado e publicado como não listado no YouTube.
 
 ## 🧠 Decisões técnicas
 
