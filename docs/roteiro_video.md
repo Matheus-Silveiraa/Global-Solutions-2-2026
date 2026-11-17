@@ -17,7 +17,7 @@
 | 3:50 | Sem base | "Como funciona o imposto de renda?": avisa o limite e não inventa |
 | 4:10 | Entradas inválidas | Enter vazio, `???`, opção "9" no menu, um CPF inventado (não é repetido na tela) |
 | 4:40 | Opção 4, trocar para o modelo A | Repetir uma pergunta para mostrar a diferença entre A e B |
-| 5:00 | `docs/resultados_testes.md` | 43 casos, 40 acertos (93,0%) na versão atual, comparação com 30/43 (69,8%) antes das melhorias, tempo médio e limitações |
+| 5:00 | Executar `python src/auditoria.py` e abrir `docs/resultados_testes.md` | Mostrar o painel no terminal, 43 casos, 40 acertos (93,0%), as três consultas ambíguas, a comparação com 30/43 (69,8%) antes das melhorias e as limitações |
 | 5:40 | `docs/teste_usabilidade.md` | Informar com transparência que ainda não houve teste com participante externo; não apresentar resultados inexistentes. Se conseguir alguém antes da gravação, executar as tarefas e atualizar o documento. |
 | 6:10 | `docs/uso_ia.md` | Onde a IA foi usada e como você validou. Seja sincero |
 | 6:40 | Conclusão | Limitações (base pequena, busca por palavras) e melhorias |
@@ -37,7 +37,7 @@
 
 **`src/respostas.py`** escreve o que aparece na tela: os modelos A e B, as mensagens de erro e o aviso de limitação.
 
-**`src/testes.py`** roda as perguntas, mede o tempo, calcula a taxa de acerto e gera `docs/resultados_testes.md`. O teste de navegação usa busca em largura (BFS) para achar o caminho entre dois assuntos.
+**`src/testes.py`** roda as perguntas, mede o tempo, calcula a taxa de acerto e gera `docs/resultados_testes.md` e `data/resultados_testes.csv`. O teste de navegação usa busca em largura (BFS) para achar o caminho entre dois assuntos. **`src/auditoria.py`** chama essa mesma suíte e apresenta um painel no terminal, separado por categoria e com a lista de casos que falharam.
 
 ## Perguntas que podem aparecer e boas respostas
 
