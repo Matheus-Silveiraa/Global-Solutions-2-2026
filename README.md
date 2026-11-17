@@ -110,7 +110,7 @@ ATENÇÃO: O fluxo e a documentação dependem do tipo de documento do veículo 
 Fontes consultadas:
   - Planalto — Código de Trânsito Brasileiro - Lei nº 9.503/1997, art. 123 e art. 134
     https://www.planalto.gov.br/ccivil_03/leis/l9503compilado.htm
-Informação conferida em: 04/11/2026
+Informação conferida em: 17/11/2026
 ```
 
 **Consulta ambígua:** `segunda via`
