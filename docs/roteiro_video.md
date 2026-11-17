@@ -18,9 +18,8 @@
 | 4:10 | Entradas inválidas | Enter vazio, `???`, opção "9" no menu, um CPF inventado (não é repetido na tela) |
 | 4:40 | Opção 4, trocar para o modelo A | Repetir uma pergunta para mostrar a diferença entre A e B |
 | 5:00 | Executar `python src/auditoria.py` e abrir `docs/resultados_testes.md` | Mostrar o painel no terminal, 43 casos, 40 acertos (93,0%), as três consultas ambíguas, a comparação com 30/43 (69,8%) antes das melhorias e as limitações |
-| 5:40 | `docs/teste_usabilidade.md` | Informar com transparência que ainda não houve teste com participante externo; não apresentar resultados inexistentes. Se conseguir alguém antes da gravação, executar as tarefas e atualizar o documento. |
-| 6:10 | `docs/uso_ia.md` | Onde a IA foi usada e como você validou. Seja sincero |
-| 6:40 | Conclusão | Limitações (base pequena, busca por palavras) e melhorias |
+| 5:40 | `docs/uso_ia.md` | Onde a IA foi usada e como você validou. Seja sincero |
+| 6:10 | Conclusão | Limitações (base pequena, busca por palavras) e melhorias |
 
 ## Guia para explicar o código (em linguagem simples)
 
